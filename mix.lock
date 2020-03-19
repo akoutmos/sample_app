@@ -1,0 +1,8 @@
+%{
+  "cowboy": {:hex, :cowboy, "2.7.0", "91ed100138a764355f43316b1d23d7ff6bdb0de4ea618cb5d8677c93a7a2f115", [:rebar3], [{:cowlib, "~> 2.8.0", [hex: :cowlib, repo: "hexpm", optional: false]}, {:ranch, "~> 1.7.1", [hex: :ranch, repo: "hexpm", optional: false]}], "hexpm", "04fd8c6a39edc6aaa9c26123009200fc61f92a3a94f3178c527b70b767c6e605"},
+  "cowlib": {:hex, :grpc_cowlib, "2.8.1", "ddaf77f3b89bd8e6c76df67b28a4b069688eef91c0c497a246cf9bfcdf87f7d3", [:rebar3], [], "hexpm", "0366f82719d24af4ce45a6591f52a7fc859785823fde4cd84e0dc45119b5ed89"},
+  "grpc": {:hex, :grpc, "0.5.0-beta", "df130d6d7f20a3469f1dcd9902add8da0286ab55bd9d784583b24b5ee7e26774", [:mix], [{:cowboy, "~> 2.7.0", [hex: :cowboy, repo: "hexpm", optional: false]}, {:gun, "~> 2.0.0", [hex: :grpc_gun, repo: "hexpm", optional: false]}, {:protobuf, "~> 0.5", [hex: :protobuf, repo: "hexpm", optional: false]}], "hexpm", "5c5f797f1b3d641ac8bcf6ca3acf7e700625333cbc30288ab2b59ed7927ba13c"},
+  "gun": {:hex, :grpc_gun, "2.0.0", "f99678a2ab975e74372a756c86ec30a8384d3ac8a8b86c7ed6243ef4e61d2729", [:rebar3], [{:cowlib, "~> 2.8.0", [hex: :cowlib, repo: "hexpm", optional: false]}], "hexpm", "03dbbca1a9c604a0267a40ea1d69986225091acb822de0b2dbea21d5815e410b"},
+  "protobuf": {:hex, :protobuf, "0.7.1", "7d1b9f7d9ecb32eccd96b0c58572de4d1c09e9e3bc414e4cb15c2dce7013f195", [:mix], [], "hexpm", "6eff7a5287963719521c82e5d5b4583fd1d7cdd89ad129f0ea7d503a50a4d13f"},
+  "ranch": {:hex, :ranch, "1.7.1", "6b1fab51b49196860b733a49c07604465a47bdb78aa10c1c16a3d199f7f8c881", [:rebar3], [], "hexpm", "451d8527787df716d99dc36162fca05934915db0b6141bbdac2ea8d3c7afc7d7"},
+}
